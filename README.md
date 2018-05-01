@@ -10,11 +10,11 @@ $ npm run babel
 > babel-7-out-dir-does-not-preserve-dir-structure-bug@1.0.0 babel E:/repos/babel-7-out-dir-does-not-preserve-dir-structure-bug
 > babel --watch --out-dir lib **/*.jsx --verbose
 
-src/App.jsx -> lib/App.js
-src/utils/index.jsx -> lib/utils/index.js
+src/App.jsx -> lib/src/App.js
+src/utils/index.jsx -> lib/src/utils/index.js
 🎉  Successfully compiled 2 files with Babel.
-src/App.jsx -> lib/App.js
-src/utils/index.jsx -> lib/utils/index.js
+src/App.jsx -> lib/src/App.js
+src/utils/index.jsx -> lib/src/utils/index.js
 ```
 
 ## Actual result
