@@ -1,0 +1,16 @@
+{
+  "name": "babel-7-out-dir-does-not-preserve-dir-structure-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel --watch --out-dir lib **/*.jsx --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.46",
+    "@babel/core": "^7.0.0-beta.46"
+  }
+}
