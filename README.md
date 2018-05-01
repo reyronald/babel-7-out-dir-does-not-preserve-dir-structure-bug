@@ -33,3 +33,19 @@ src/utils/index.jsx -> lib/index.js
 src/App.jsx -> lib/src/App.js
 src/utils/index.jsx -> lib/src/utils/index.js
 ```
+
+## Workaround
+
+There's a workaround by using a directory input instead of filename patterns:
+
+Instead of...
+
+```bash
+babel --watch --out-dir lib src/**/*.jsx --verbose
+```
+
+...use...
+
+```bash
+babel --watch --out-dir lib src --extensions .jsx --verbose
+```
