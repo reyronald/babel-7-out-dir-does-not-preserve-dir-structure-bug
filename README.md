@@ -1,3 +1,6 @@
+
+See https://github.com/babel/babel/issues/7849 and https://github.com/babel/babel/pull/7875
+
 # babel-7-out-dir-does-not-preserve-dir-structure-bug
 
 ## Expected result
